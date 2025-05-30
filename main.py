@@ -1,3 +1,14 @@
+"""
+Script de Conversão de PDF/Imagem para DICOM
+
+Este aplicativo converte arquivos PDF ou imagens (PNG, JPG, BMP, TIFF) em arquivos DICOM,
+preservando os metadados de um DICOM de origem selecionado pelo usuário. Permite uso em clínicas,
+hospitais e ambientes de diagnóstico para arquivamento e interoperabilidade de imagens médicas.
+
+Autor: Julio Cesar Nather Junior
+Ano: 2025
+"""
+
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import pydicom
