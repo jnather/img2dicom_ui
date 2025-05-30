@@ -1,4 +1,4 @@
-# Conversor DICOM
+# Conversor DICOM de PDF/Imagem
 
 ## Sobre o Projeto
 Este aplicativo permite converter arquivos PDF ou imagens (PNG, JPG, BMP, TIFF) em arquivos DICOM, mantendo os metadados de um arquivo DICOM de origem. O DICOM (Digital Imaging and Communications in Medicine) é o padrão internacional para imagens médicas e informações relacionadas.
@@ -111,6 +111,9 @@ Exemplo: `SC_12345678_001.dcm`
 - A conversão de imagens coloridas resulta em arquivos DICOM RGB
 - A conversão de imagens em escala de cinza resulta em arquivos DICOM MONOCHROME2
 - PDFs com elementos complexos podem não ser convertidos com alta fidelidade
+
+> **⚠️ IMPORTANTE:**
+> Este software foi desenvolvido **APENAS PARA FINS DE TESTE** e **NÃO DEVE SER UTILIZADO PARA USO CLÍNICO** ou diagnóstico médico. Utilize por sua conta e risco.
 
 ## Licença
 
