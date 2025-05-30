@@ -65,8 +65,50 @@ venv.bak/
 Thumbs.db
 Desktop.ini
 
+# Arquivos de imagem
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+*.gif
+*.svg
+*.webp
+*.heic
+*.raw
+*.ico
+
 # Arquivos DICOM gerados
 *.dcm
+
+# Exemplos de arquivos sensíveis
+*.pdf
+*.csv
+*.xlsx
+*.xls
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.json
+*.xml
+*.yml
+*.yaml
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.key
+*.pem
+*.crt
+*.pfx
+*.env
+*.secrets
+*.token
+*.cert
+*.p12
+*.asc
 
 # Outros arquivos temporários
 *.log
